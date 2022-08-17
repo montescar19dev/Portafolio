@@ -1,0 +1,571 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+:root{
+    --white: #ffffff;
+    --yellow: #F1A600;
+    --bluedarkOne: #1F1D2C;
+    --bluedarkTwo: #242635;
+    --graylight: #E5E5E5;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+
+body{
+    font-family: 'Inter', sans-serif;
+    min-width: 500px;
+    width: 100%;
+}
+
+.header{
+    background-color: var(--bluedarkOne);
+    height: 950px;
+    position: relative;
+    z-index: 1;
+}
+
+
+.nav{
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 2rem;
+    padding-right: 2rem;
+    height: 50px;
+    z-index: 10;
+}
+
+a{
+    text-decoration: none;
+    color: var(--graylight);
+    padding-right: 1rem;
+}
+
+.nav--menu{
+    z-index: 10;
+}
+
+.nav--menu-icon{
+    z-index: 5;
+}
+
+/*------ SECCION HEADER ------*/
+
+.header-section{
+    color: var(--white);
+}
+
+
+.bloque-fondo{
+    height: 700px;
+
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.photo{
+    width: 40%;
+    z-index: 2;
+    position: absolute;
+    right: 130px;
+    top: 270px;
+}
+
+.header-text{
+    position: absolute;
+    z-index: 3;
+}
+
+.header-title{
+    font-size: 1.5rem;
+    position: relative;
+    margin-left: 2rem;
+    top: 5rem;
+}
+
+
+.header-subtitle{
+    font-size: 1.5rem;
+    margin-left: 2rem;
+    position: relative;
+    top: 6rem;
+}
+
+.subtitle{
+    font-weight: 100;
+}
+
+.header-experience{
+    font-size: 1.5rem;
+    margin-left: 2rem;
+    position: relative;
+    top: 7rem;
+}
+
+.subtitleColor{
+    color: var(--yellow);
+}
+
+.social-icons{
+    display: flex;
+    align-items: baseline;
+    position: relative;
+    top: 120px;
+    left: 16%;
+}
+
+.linkedin{
+    width: 4em;
+    margin-right: 2rem;
+}
+
+.instagram{
+    width: 3.5em; 
+    margin-right: 2rem;
+}
+
+.twitter{
+    width: 4em;
+}
+
+
+/*------ SECCION SOBRE MI ------*/
+
+.about-me{
+    background-color: var(--bluedarkTwo);
+    width: 100%;
+    height: auto;
+    color: var(--white);
+    text-align: center;
+    padding-bottom: 4rem;
+}
+
+.about-title{
+    padding-top: 4rem;
+    font-size: x-large;
+}
+
+.about-text{
+    padding: 2rem;
+    margin-left: 12rem;
+    margin-right: 12rem;
+    
+}
+
+.educacionIcons{
+    display: flex;
+    justify-content: center;
+    padding-top: 3rem;
+}
+
+.eduIcon1{
+   margin-right: 7.5rem;
+}
+
+.umTitle{
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.umSubtitle{
+    font-size: medium;
+    font-weight: lighter;
+}
+
+.academloTitle{
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.academloSubtitle{
+    font-size: medium;
+    font-weight: lighter;   
+}
+
+/*------ SECCION EXPERIENCIA ------*/
+/* Titulo  */
+
+.experience{
+    background-color: var(--bluedarkOne);
+    width: 100%;
+    height: 800px;
+    padding-top: 3rem;
+}
+
+.experienceTitle{
+    text-align: center;
+    color: var(--white);
+    padding-top: 4rem;
+    font-size: x-large;
+    font-weight: 900;
+}
+
+
+/* contenido  */
+
+.grid1{
+    color: var(--white);
+    display: grid;
+
+    grid-template-columns: 75% 25%;
+    height: auto;
+}
+
+.bloque{
+
+    height: auto;
+    align-items: center;
+
+}
+
+.segmentos123{
+    min-width: 200px;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    padding: 3rem;
+}
+
+
+.celda1{
+    padding-top: 1.5rem;
+
+}
+
+.group35{
+    height: 450px;
+    padding-top: 2.5rem;
+}
+
+.celda2{
+    padding: 1rem;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+}
+
+.experienceYears{
+    font-size: larger;
+    font-weight: 900;
+}
+
+.companyTitle{
+    font-size: x-large;
+    font-weight: 900; 
+}
+
+/*------ SECCION MIS HABILIDADES ------*/
+
+/* Contenedor */
+
+.misHabilidades{
+    background-color: var(--bluedarkOne);
+    width: 100%;
+    height: auto;
+    padding-bottom: 3rem;
+    position: relative;
+}
+
+/* Titulo */
+
+.habilidadesTitle{
+    text-align: center;
+    color: var(--white);
+    padding-top: 4rem;
+    font-size: x-large;
+    font-weight: 900;
+    position: relative;
+    z-index: 10;
+}
+
+/* Contenido */
+
+
+
+.habilidadesContenido{
+    color: var(--white);
+    font-weight: 900;
+    font-size: 20px;
+    text-align: left;
+    margin-top: 2rem;
+    align-items: center;
+    z-index: 10;
+}
+
+.porcentajeHabilidades{
+    font-size: 60px;
+    color: var(--yellow);
+    font-weight: 900;
+    margin-right: 1rem;
+    
+}
+
+.habilidadesContenedor{
+    margin-left: 20%;
+    margin-right: 1rem;
+    z-index: 10;
+    position: relative;
+}
+
+.bloqueFondo{
+    background-color: var(--bluedarkTwo);
+    height: 650px;
+    width: 35%;
+    left: 0;
+    top: 0;
+    position: absolute;
+    align-self: flex-end;
+    z-index: 1;
+}
+
+
+/*------ SECCION MI PORTAFOLIO ------*/
+
+/* Contenedor */
+.miPortafolio{
+    background-color: var(--bluedarkOne);
+    height: 1350px;
+    width: 100%;
+    position: relative;
+}
+
+/* Titulo */
+.portafolioTitle{
+    text-align: center;
+    color: var(--white);
+    padding-top: 8rem;
+    font-size: x-large;
+    font-weight: 900;
+}
+
+/* Contenido */
+
+.fotosPortafolio{
+    justify-content: center;
+    display: block;
+    left: 200px;
+    padding-top: 8rem;
+}
+
+.fotoPortafolio1{
+    position: absolute;
+    left: 19.5%;
+    top: 240px;
+    z-index: 5;
+}
+
+.fotoPortafolio2{
+    position: absolute;
+    right: 19.5%;
+    top: 600px;
+    z-index: 5;
+}
+
+.fotoPortafolio3{
+    position: absolute;
+    left: 19.5%;
+    top: 980px;
+    z-index: 5;
+}
+
+.bloquecolorFondo{
+    background: var(--yellow);
+    position: absolute;
+    left: 18.5%;
+    top: 220px;
+    width: 375px;
+    height: 250px;
+    z-index: 2;
+}
+
+.bloquecolorFondo2{
+    background: var(--graylight);
+    position: absolute;
+    right: 18.5%;
+    top: 580px;
+    width: 375px;
+    height: 250px;
+    z-index: 2;
+}
+
+.bloquecolorFondo3{
+    background: var(--yellow);
+    position: absolute;
+    left: 18.5%;
+    top: 960px;
+    width: 375px;
+    height: 250px;
+    z-index: 2;
+}
+
+.portfotoTitle{
+    font-size: x-large;
+    font-weight: 900;
+    color: var(--graylight);
+}
+
+.fotosPort{
+    width: 350px;
+    height: auto;
+}
+
+/*------ SECCION CONTACTO ------*/
+
+/* Contenedor */
+.contacto{
+    background-color: var(--bluedarkTwo);
+    height: auto;
+    width: 100%;
+    padding-bottom: 4rem;
+}
+
+/* Titulo */
+.contactoTitle{
+    text-align: center;
+    color: var(--white);
+    padding-top: 3rem;
+    font-size: x-large;
+    font-weight: 900;
+}
+
+/* Contenido */
+
+.contactoElementos{
+    display: flex;
+    justify-content: space-evenly;
+    color: var(--graylight);
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.phone{
+    padding-top: 30px;
+    text-align: center;
+}
+
+.phoneTitle{
+    font-size: larger;
+    font-weight: 900;
+}
+
+.mail{
+    padding-top: 60px;
+    text-align: center;
+}
+
+.mailTitle{
+    font-size: larger;
+    font-weight: 900;
+}
+
+/*------ SECCION FOOTER ------*/
+.footer{
+    background-color: var(--bluedarkOne);
+    height: 100px;
+    width: 100%;
+    padding-bottom: 4rem;
+    display: flex;
+    justify-content: center;
+}
+
+.textFooter{
+    margin-top: 2.5rem;
+    display: flex;
+    color: var(--graylight);
+}
+
+/*------ MEDIA QUERYS RESPONSIVE ------*/
+
+@media screen and (min-width: 706px) {
+    .header-title{
+        font-size: 4rem;
+    }
+
+    .header{
+        min-height: 100vh;
+    }
+
+
+    .nav--menu-icon{
+        display: none;
+    }
+
+    a:hover{
+        color: var(--yellow);
+    }
+
+
+}
+
+@media screen and (min-width: 1150px) {
+    .header-subtitle{
+        font-size: 3rem;
+        padding-left: 4rem;
+    }
+    
+    .header-experience{
+        font-size: 3rem;
+        padding-left: 4rem;
+    }
+
+}
+
+
+@media screen and (max-width: 685px) {
+
+    .nav--menu{
+        display: none;
+    }
+    .nav{
+        display: flex;
+        justify-content: center;
+        padding: 0.5rem 1.5rem;
+        height: 50px;
+        z-index: 10;
+    }
+
+    .nav--menu-icon{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: .5rem;
+    }
+
+    .nav--menu-icon:hover{
+        color: var(--yellow);
+    }
+
+
+}
+
+
+@media screen and (max-width: 1005px) {
+    .about-text{
+        padding: 1rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .about-me{
+        height: auto;
+    }
+
+}
+
+@media screen and (max-width: 950px) {
+    .photo{
+        width: 60%;
+        z-index: 2;
+        position: absolute;
+        right: 90px;
+        top: 420px;
+    }
+}
+
